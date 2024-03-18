@@ -80,3 +80,96 @@
 }
 
 
+
+{
+
+
+  //Desafio de Ordenação: javascript
+  const bubbleSort = (arr) => {
+    let len = arr.length;
+    for (let i = 0; i < len; i++) {
+      for (let j = 0; j < len - 1; j++) {
+        if (arr[j] > arr[j + 1]) {
+          let temp = arr[j];
+          arr[j] = arr[j + 1];
+          arr[j + 1] = temp;
+        }
+      }
+    }
+    return arr;
+  }
+
+  // Exemplo de uso:
+  const numbers = [5, 3, 8, 2, 1];
+  console.log("Array antes da ordenação:", numbers);
+  console.log("Array ordenado:", bubbleSort(numbers));
+}
+
+{
+  //Desafio de Fatorial: javascript
+
+  const fatorial = (n) => {
+    if (n === 0 || n === 1) {
+      return 1;
+    } else {
+      return n * fatorial(n - 1);
+    }
+  }
+
+  // Exemplo de uso:
+  const num = 5;
+  console.log(`O fatorial de ${num} é:`, fatorial(num));
+}
+
+{
+  //Desafio de Palíndromo:javascript
+
+  const isPalindrome = (str) => {
+    const cleanStr = str.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
+    const reversedStr = cleanStr.split("").reverse().join("");
+    return cleanStr === reversedStr;
+  }
+
+  // Exemplo de uso:
+  const word = "radar";
+  console.log(`A palavra "${word}" é um palíndromo?`, isPalindrome(word));
+}
+
+{
+  //Desafio de Números Primos:javascript
+
+  const isPrime = (num) => {
+    if (num <= 1) return false;
+    if (num <= 3) return true;
+
+    if (num % 2 === 0 || num % 3 === 0) return false;
+
+    let i = 5;
+    while (i * i <= num) {
+      if (num % i === 0 || num % (i + 2) === 0) return false;
+      i += 6;
+    }
+
+    return true;
+  }
+
+  // Exemplo de uso:
+  const num = 7;
+  console.log(`O número ${num} é primo?`, isPrime(num));
+}
+
+{
+  //Desafio de Fibonacci:javascript
+
+  const fibonacci = (n) => {
+    let fib = [0, 1];
+    for (let i = 2; i < n; i++) {
+      fib[i] = fib[i - 1] + fib[i - 2];
+    }
+    return fib.slice(0, n);
+  }
+
+  // Exemplo de uso:
+  const count = 10;
+  console.log(`Os primeiros ${count} números da sequência de Fibonacci são:`)
+}
