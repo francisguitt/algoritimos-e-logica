@@ -1,18 +1,8 @@
 
-
-
+//Cada exemplo tem seu escopo {  }
 
 
 {
-
-  const btnShow = document.getElementById("btn-show");
-  btnShow.addEventListener("click", () => {
-    Tree();
-    createChristmasTree();
-
-  })
-
-  //######################################################
   //ARVORE DE NATAL
   const Tree = () => {
     let tree = "";
@@ -27,7 +17,12 @@
     tree += trunkspaces + "\n"
     console.log(tree)
   }
+  Tree();
+}
 
+
+
+{
   //###########################################
   //ARVORE DE NATAL
   const createChristmasTree = () => {
@@ -50,7 +45,13 @@
     tree += trunkSpaces + trunk + "\n";
     console.log(tree);
   }
+  createChristmasTree();
 
+
+}
+
+
+{
   //#############################################
   //GRÁFICOS
   const createBarChart = (data) => {
@@ -76,14 +77,9 @@
   createBarChart(data);
   //##################
 
-
 }
 
-
-
 {
-
-
   //Desafio de Ordenação: javascript
   const bubbleSort = (arr) => {
     let len = arr.length;
@@ -103,6 +99,8 @@
   const numbers = [5, 3, 8, 2, 1];
   console.log("Array antes da ordenação:", numbers);
   console.log("Array ordenado:", bubbleSort(numbers));
+
+
 }
 
 {
@@ -135,6 +133,7 @@
   console.log(`A palavra "${word}" é um palíndromo?`, isPalindrome(word));
 }
 
+
 {
   //Desafio de Números Primos:javascript
 
@@ -157,6 +156,7 @@
   const num = 7;
   console.log(`O número ${num} é primo?`, isPrime(num));
 }
+
 
 {
   //Desafio de Fibonacci:javascript
