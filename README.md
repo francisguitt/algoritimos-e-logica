@@ -1,6 +1,6 @@
 # Projeto de Aprendizado de Algoritmos e Lógica de Programação
 
-Este é um projeto dedicado a auxiliar indivíduos interessados em aprender algoritmos e lógica de programação. Nosso objetivo é fornecer uma plataforma que ofereça exemplos práticos e desafios para ajudar os iniciantes a compreenderem os conceitos fundamentais da programação.
+Este é um projeto dedicado a auxiliar programadores iniciantes interessados em aprender algoritmos e lógica de programação. Nosso objetivo é fornecer  exemplos práticos e desafios para ajudar os iniciantes a compreenderem os conceitos fundamentais da programação.
 
 ## Sobre o Autor
 
