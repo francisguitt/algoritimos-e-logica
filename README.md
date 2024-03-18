@@ -26,4 +26,4 @@ Além dos exemplos práticos, nosso projeto proporciona uma série de desafios p
 - **Números Primos**: Implemente uma função para verificar se um número é primo ou não.
 - **Fibonacci**: Desenvolva uma função para gerar os primeiros N números da sequência de Fibonacci.
 
-Sinta-se à vontade para explorar esses desafios e expandir seus conhecimentos em programação! Para mais detalhes sobre cada desafio, consulte a documentação do projeto.
+Sinta-se à vontade para explorar esses desafios e expandir seus conhecimentos em programação! 
